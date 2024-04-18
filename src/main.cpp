@@ -205,6 +205,10 @@ int main(void) {
     float max = atof(maxBuffer);
     float step = atof(stepBuffer);
 
+    free(minBuffer);
+    free(maxBuffer);
+    free(stepBuffer);
+
     os_PutStrFull(floatToString(min));
     os_PutStrFull(", ");
     os_PutStrFull(floatToString(max));

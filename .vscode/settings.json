@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "real": "cpp",
+        "cstring": "cpp",
+        "*.bak": "c"
+    }
+}

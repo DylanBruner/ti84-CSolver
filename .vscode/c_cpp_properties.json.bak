@@ -1,0 +1,17 @@
+{
+    "env": {
+        "myIncludePath": [
+            "D:\\CEdev\\include"
+        ]
+    },
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${env:myIncludePath}"
+            ],
+            "compilerPath": "c:\\Users\\brune\\AppData\\Roaming\\Code\\User\\globalStorage\\sigbots.pros\\install\\pros-toolchain-windows\\usr\\bin\\arm-none-eabi-g++.exe"
+        }
+    ],
+    "version": 4
+}
